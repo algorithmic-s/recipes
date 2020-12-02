@@ -1,0 +1,86 @@
+/* Recipe.js */
+
+
+.title{
+
+    margin: 15px 25px 20px 25px;
+    padding-bottom: 25px;
+    
+    width: 350px;
+       color:#0000CD; 
+    }
+    .recipe {
+    
+    
+        /*below makes permanent height/width, zooming out wont change box sizes */
+        display: table; margin: auto; border-botton: 1px dotted;
+    
+    
+        border-radius: 10px;
+        box-shadow: 0px 5px 20px rgb(95, 95, 95);
+        margin: 20px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: white;
+        align-items: center;
+        text-align: center;
+        min-width: 40%;
+    }
+    
+    .image {
+        border-radius: 50%;
+        width:100px;
+        height: 100px;
+        padding: 5px 5px 20px 5px;
+    
+    }
+    
+    .calories {
+    
+    text-align: center;
+    color: white;
+    background: black;
+    border: 2px lightcoral;
+    padding: 5px 5px 0px 5px;
+    
+    -webkit-box-shadow: -5px 3px 6px -1px rgba(130,130,130,1);
+    -moz-box-shadow: -5px 3px 6px -1px rgba(130,130,130,1);
+    box-shadow: -5px 3px 6px -1px rgba(130,130,130,1);
+    }
+    
+    .listItems{
+       /* keep paragraphs horizontally and verticle aligned
+        display: inline-block;
+        adding a width value to make sure the paragraphs fills the
+        full width of the parent container */
+        display: table; margin: auto; border-botton: 1px dotted;
+        font-size: 13.5px;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        margin: 10px 20px 10px -20px;
+        color: rgb(255, 255, 255);
+        background-color: #b1d4f4;
+        border: .5px lightcoral;
+        width: 375px;
+    
+        
+        font-family: Marcellus, serif;
+        font-size: 15px;
+        font-weight: 100;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1.6em;
+        letter-spacing: 0px;
+    
+        /* fonts: https://designtheway.com/font-css-style-generator/*/
+        -webkit-box-shadow: -35px -33px 20px -35px rgba(145,145,145,0.83);
+        -moz-box-shadow: -35px -33px 20px -35px rgba(145,145,145,0.83);
+        box-shadow: -35px -33px 20px -35px rgba(145,145,145,0.83);
+        /*
+    -webkit-box-shadow: -2px 1px 11px -4px rgba(99,99,99,0.7);
+    -moz-box-shadow: -2px 1px 11px -4px rgba(99,99,99,0.7);
+    box-shadow: -2px 1px 11px -4px rgba(99,99,99,0.7);
+    */
+    }
