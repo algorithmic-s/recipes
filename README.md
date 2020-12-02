@@ -5,7 +5,7 @@
 
 
 
-    languages used:
+        languages used:
 * ReactJS (Javascript Library)
 * HTML & CSS
 
