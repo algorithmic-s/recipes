@@ -1,3 +1,22 @@
+    project description:
+* A simple recipe displayer taken from a recipe API (edamam)
+* Aesthetic user interface created through CSS
+* ReactJS is used as a Javascript library to make it simpler to display data from API
+
+
+    languages used:
+* ReactJS (Javascript Library)
+* HTML & CSS
+
+
+        RESOURCES USED: 
+* webgradients.com/
+* reactjs.org/
+* developer.mozilla.org/en-US/docs/Web/CSS
+* Recipe API: developer .edamam.com
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
